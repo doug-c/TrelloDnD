@@ -60,87 +60,87 @@ export default {
   components: {
     Card,
     Container,
-    Draggable,
+    Draggable
   },
   data() {
     return {
       dropPlaceholderOptions: {
         className: "drop-preview",
         animationDuration: "150",
-        showOnTop: false,
+        showOnTop: false
       },
       listOne: [
         {
           id: 0,
-          text: `List 1 Text 0`,
+          text: `List 1 Text 0`
         },
         {
           id: 1,
-          text: `List 1 Text 1`,
+          text: `List 1 Text 1`
         },
         {
           id: 2,
-          text: `List 1 Text 2`,
+          text: `List 1 Text 2`
         },
         {
           id: 3,
-          text: `List 1 Text 3`,
-        },
+          text: `List 1 Text 3`
+        }
       ],
       listTwo: [
         {
           id: 0,
-          text: `List 2 Text 0`,
+          text: `List 2 Text 0`
         },
         {
           id: 1,
-          text: `List 2 Text 1`,
+          text: `List 2 Text 1`
         },
         {
           id: 2,
-          text: `List 2 Text 2`,
+          text: `List 2 Text 2`
         },
         {
           id: 3,
-          text: `List 2 Text 3`,
-        },
+          text: `List 2 Text 3`
+        }
       ],
       listThree: [
         {
           id: 0,
-          text: `List 3 Text 0`,
+          text: `List 3 Text 0`
         },
         {
           id: 1,
-          text: `List 3 Text 1`,
+          text: `List 3 Text 1`
         },
         {
           id: 2,
-          text: `List 3 Text 2`,
+          text: `List 3 Text 2`
         },
         {
           id: 3,
-          text: `List 3 Text 3`,
-        },
+          text: `List 3 Text 3`
+        }
       ],
       listFour: [
         {
           id: 0,
-          text: `List 4 Text 0`,
+          text: `List 4 Text 0`
         },
         {
           id: 1,
-          text: `List 4 Text 1`,
+          text: `List 4 Text 1`
         },
         {
           id: 2,
-          text: `List 4 Text 2`,
+          text: `List 4 Text 2`
         },
         {
           id: 3,
-          text: `List 4 Text 3`,
-        },
-      ],
+          text: `List 4 Text 3`
+        }
+      ]
     };
   },
   methods: {
@@ -158,8 +158,8 @@ export default {
     },
     getChildPayload4(index) {
       return this.listFour[index];
-    },
-  },
+    }
+  }
 };
 </script>
 

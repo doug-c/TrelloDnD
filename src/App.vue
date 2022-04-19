@@ -10,8 +10,8 @@ import CardList from "./components/CardList.vue";
 export default {
   name: "App",
   components: {
-    CardList,
-  },
+    CardList
+  }
 };
 </script>
 
