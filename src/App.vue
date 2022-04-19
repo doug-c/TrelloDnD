@@ -17,7 +17,7 @@ export default {
 
 <style>
 body {
-  background: #f6f9fc;
+  background: #6996c2;
 }
 #app {
   display: flex;
